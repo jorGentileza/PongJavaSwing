@@ -17,7 +17,7 @@ public class Pareman {
 
         x = 10;
         y = 225;
-        pareman = "pareman.png";
+        pareman = "/imagenes/pareman.png";
         ImageIcon img = new ImageIcon(this.getClass().getResource(pareman));
         imagen = img.getImage();
 

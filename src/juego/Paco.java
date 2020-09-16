@@ -17,7 +17,7 @@ public class Paco {
 
         x = 940;
         y = 225;
-        paco = "PacoPrueba.png";
+        paco = "/imagenes/PacoPrueba.png";
         ImageIcon img = new ImageIcon(this.getClass().getResource(paco));
         imagen = img.getImage();
 

@@ -28,7 +28,7 @@ public class Bola {
 
         x = 475;
         y = 225;
-        bola = "Bola.png";
+        bola = "/imagenes/Bola.png";
         ImageIcon img = new ImageIcon(this.getClass().getResource(bola));
         imagen = img.getImage();
 

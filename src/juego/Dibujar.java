@@ -36,7 +36,7 @@ public class Dibujar extends JPanel implements ActionListener {
     }
 
     private void fondo() {
-        fondo = "fondo.png";
+        fondo = "/imagenes/fondo.png";
         ImageIcon img = new ImageIcon(this.getClass().getResource(fondo));
         imagen = img.getImage();
     }
